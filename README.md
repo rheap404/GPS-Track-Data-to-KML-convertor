@@ -50,10 +50,14 @@ Replace input.txt with the path to your GPS track data file and output.kml with 
 
 
 ## Example GPS Track Data
-Assuming your input GPS track data file (input.txt) follows the same format as mentioned in the provided code:
+Assuming your input GPS track data file (input.txt) follows the same format as mentioned in the provided code: <br>
 2022-02-17T09:52:39Z,-1.547720,53.803941,69.8 <br>
 2022-02-17T09:53:31Z,-1.548531,53.804616,72.5 <br>
 2022-02-17T09:54:29Z,-1.549418,53.805238,68.1 <br>
 2022-02-17T09:55:31Z,-1.550828,53.805469,70.5 <br>
+
+![Uploading KML File- Google Map.png…]()
+
+
 
 The converter will process this data and create a KML file (output.kml) that represents the path on a map.
