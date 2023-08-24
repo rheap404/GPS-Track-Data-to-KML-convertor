@@ -56,7 +56,8 @@ Assuming your input GPS track data file (input.txt) follows the same format as m
 2022-02-17T09:54:29Z,-1.549418,53.805238,68.1 <br>
 2022-02-17T09:55:31Z,-1.550828,53.805469,70.5 <br>
 
-![Uploading KML File- Google Map.png…]()
+<img width="1294" alt="KML File- Google Map" src="https://github.com/rheap404/GPS-Track-Data-to-KML-convertor/assets/100610565/5b42154b-ec06-454c-aa5b-c498dda4c0ef">
+
 
 
 
