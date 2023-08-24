@@ -1,7 +1,7 @@
 # GPS Track Data to KML Converter
 
 The GPS Track Data to KML Converter is a Java-based command-line utility designed to convert GPS track data recorded by a GPS sensor into KML (Keyhole Markup Language) format. This utility is developed as part of the Advanced task for the COMP1721 Coursework 1 assignment.
-
+<br>
 GPS track data often contains a series of geographical coordinates, timestamps, and elevation information that, when visualized, can represent a path or journey on a map. The KML format is widely supported by mapping tools, such as Google Earth, allowing you to visualize the path on a map.
 
 ## Table of Contents
@@ -14,10 +14,15 @@ GPS track data often contains a series of geographical coordinates, timestamps, 
 ## Features
 
 GPS Track Data Conversion: The core functionality of this utility lies in its ability to seamlessly convert raw GPS track data, captured by a GPS sensor, into a standardized KML format. 
+
 Information: Provides findings of the lowest and highest points, calculating distances and average speeds, and handling exceptions for insufficient data
+
 Process Timestamped GPS Points: The utility is designed to handle GPS track data that includes crucial timestamp information. Each recorded point in your input file is associated with a timestamp that reflects when the data was captured.
+
 Geographical Coordinates and Elevation: The converter processes each GPS data point, extracting vital information such as longitude, latitude, and elevation. This rich dataset allows the utility to accurately plot your path over varying terrains and altitudes. 
+
 Visualization: Generate a KML file that can be imported into mapping tools like Google Earth for visualizing the GPS track on a map. This powerful feature empowers you to explore your GPS track in a highly interactive and visually engaging manner.
+
 Potential Educational and Analytical Applications: Researchers, adventurers, and educators can leverage the utility to analyze paths taken during specific time periods, study elevation changes, or even compare multiple journeys on the same map.
 
 
@@ -46,9 +51,9 @@ Replace input.txt with the path to your GPS track data file and output.kml with 
 
 ## Example GPS Track Data
 Assuming your input GPS track data file (input.txt) follows the same format as mentioned in the provided code:
-2022-02-17T09:52:39Z,-1.547720,53.803941,69.8
-2022-02-17T09:53:31Z,-1.548531,53.804616,72.5
-2022-02-17T09:54:29Z,-1.549418,53.805238,68.1
-2022-02-17T09:55:31Z,-1.550828,53.805469,70.5
+2022-02-17T09:52:39Z,-1.547720,53.803941,69.8 <br>
+2022-02-17T09:53:31Z,-1.548531,53.804616,72.5 <br>
+2022-02-17T09:54:29Z,-1.549418,53.805238,68.1 <br>
+2022-02-17T09:55:31Z,-1.550828,53.805469,70.5 <br>
 
 The converter will process this data and create a KML file (output.kml) that represents the path on a map.
